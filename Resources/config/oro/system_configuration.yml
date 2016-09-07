@@ -1,9 +1,8 @@
-oro_system_configuration:
+system_configuration:
     groups:
         localization:
             title: oro.locale.system_configuration.groups.localization.title
             icon:  'icon-flag'
-            page_reload: false
         language_settings:
             title: oro.locale.system_configuration.groups.language_settings.title
             icon:  'icon-font'
@@ -69,6 +68,7 @@ oro_system_configuration:
                 tooltip: oro.locale.form.tooltip.languages
                 required: true
                 multiple: true
+                show_all: true
                 constraints:
                     - NotBlank: ~
 
